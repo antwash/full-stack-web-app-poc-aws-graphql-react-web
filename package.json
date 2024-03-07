@@ -4,7 +4,12 @@
   "license": "MIT",
   "scripts": {},
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "@apollo/server": "^4.10.1",
+    "@nestjs/apollo": "^12.1.0",
+    "@nestjs/graphql": "^12.1.1",
+    "graphql": "^16.8.1"
+  },
   "devDependencies": {
     "@nx/js": "18.0.7",
     "@nx/workspace": "18.0.7",
