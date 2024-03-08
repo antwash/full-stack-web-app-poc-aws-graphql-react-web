@@ -2,7 +2,9 @@
   "name": "@graphql-api-ecs/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "codegen": "graphql-codegen --config codegen.ts"
+  },
   "private": true,
   "dependencies": {
     "@apollo/client": "^3.9.6",
@@ -27,7 +29,9 @@
   "devDependencies": {
     "@babel/core": "^7.14.5",
     "@babel/preset-react": "^7.14.5",
-    "@graphql-codegen/cli": "^5.0.2",
+    "@graphql-codegen/cli": "5.0.2",
+    "@graphql-codegen/client-preset": "4.2.4",
+    "@graphql-codegen/typescript-react-apollo": "^4.3.0",
     "@nestjs/schematics": "^10.0.1",
     "@nestjs/testing": "^10.0.2",
     "@nx/cypress": "18.0.7",
